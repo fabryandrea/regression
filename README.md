@@ -26,7 +26,7 @@ The following algorithms were used for modeling:
 * random forest for exploring non-linear relationships.
 
 Here's a great animation from a blogpost by George Seif that shows how random forest works: 
-https://cdn-images-1.medium.com/max/1760/1*9kACduxnce_JdTrftM_bsA.gif
+![2014-10-22 11_35_09](https://cdn-images-1.medium.com/max/1760/1*9kACduxnce_JdTrftM_bsA.gif)
 
 **4. Conclusion**
 
