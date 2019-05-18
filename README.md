@@ -12,7 +12,7 @@ Company X makes product identification labels for manufacturing businesses that 
 **2. The Dataset**
 The dataset contains 222,904 entries and 18 columns. The data was significantly transformed for modeling.
 
-* MEASUREMENTS: all measurements were converted onto a common scale (millimeter). Since measurements are defined by SHAPE (for example, a circle has a diameter but no length or width) all missing values in LENGTH, WIDTH, DIAMETER, and VERTICAL_GAP were filled with zero. Diameters over 10mm were dropped as errors. Unusually high values for LENGTH, WIDTH, and VERTICAL_GAP were left in the dataset and may result in worse predictions. The same is true for unusually high values in NO_ACROSS.
+* MEASUREMENTS: all measurements were converted onto a common scale (millimeter). Since measurements are defined by SHAPE (for example, a circle has a diameter but no length or width) all missing values in `length`, `WIDTH`, DIAMETER, and VERTICAL_GAP were filled with zero. Diameters over 10mm were dropped as errors. Unusually high values for LENGTH, WIDTH, and VERTICAL_GAP were left in the dataset and may result in worse predictions. The same is true for unusually high values in NO_ACROSS.
 * DUPLICATES: MATERIAL_DESCRIPTION and ITEM_DESCRIPTION columns were dropped as they contain information contained in other columns.
 * SALES OUTLIERS: dropped zero and minus amounts in sales, costs and price. Unusually high values were left in the dataset and may result in worse predictions.
 * DATES: the INVOICE_DATE column was transformed into new features (year, month, day, day of the week).
